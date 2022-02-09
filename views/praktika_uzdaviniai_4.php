@@ -154,7 +154,8 @@ breakline();
 
 echo '40. Funkcija turi priimti du kintamuosius. Vienas turi būti skaičius, kitas masyvas su skaičiais ir minimum 7 elementais. Funkcija turi grąžinti true, jei skaičius yra masyve, ir false, jei nėra tokio skaičiaus masyve.<br>';
 
-function function8 ($num1, $array1) {
+function function8($num1, $array1)
+{
     if (is_int($num1) && (is_array($array1) && count($array1) > 6)) {
         $counter = 0;
         foreach ($array1 as $item) {
